@@ -1,5 +1,3 @@
-# Implementacija-i-analiza-algoritama-superviziranog-ucenja-na-Loadgas-i-Iris-Flower-dataset-u
-
 # Implementacija i analiza algoritama superviziranog učenja na Loadgas i Iris Flower dataset-u
 
 Ovaj projekat prikazuje implementaciju i analizu algoritama superviziranog učenja u MATLAB okruženju na dva različita problema:
