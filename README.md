@@ -41,7 +41,7 @@ Za pokretanje projekta potrebno je imati:
 
 ## Kako pokrenuti projekat
 
-### 1. Kloniranje repozitorija
+### Kloniranje repozitorija
 
 U Git Command Window-u ili terminalu potrebno je pokrenuti:
 
@@ -50,6 +50,17 @@ git clone <URL_REPOZITORIJA>
 ```
 
 # Rezultati i analiza
+
+## Poređenje datasetova
+
+| Dataset   | Tip problema   | Cilj                               |
+|----------|---------------|------------------------------------|
+| Iris     | Klasifikacija | Predviđanje diskretne klase        |
+| Load Gas | Regresija     | Predviđanje kontinuirane vrijednosti |
+
+Kod klasifikacionog problema cilj je dodijeliti uzorke odgovarajućim klasama, dok se kod regresije predviđaju numeričke vrijednosti. Ova razlika direktno utiče na izbor modela i metrika evaluacije.
+
+---
 
 ## 1. Iris dataset – klasifikacija
 
@@ -116,17 +127,6 @@ SVR model postiže najlošije rezultate sa MSE = 828.2043, RMSE = 28.7785, MAE =
 ### Objašnjenje grafova
 
 Na prikazanim grafovima plava linija predstavlja stvarne vrijednosti, dok crvena linija označava predikcije modela. Što je veće preklapanje između ove dvije krive, to model postiže bolje performanse. Linearna regresija pokazuje najveći stepen poklapanja, dok su odstupanja kod ostalih modela izraženija.
-
----
-
-## Poređenje datasetova
-
-| Dataset   | Tip problema   | Cilj                               |
-|----------|---------------|------------------------------------|
-| Iris     | Klasifikacija | Predviđanje diskretne klase        |
-| Load Gas | Regresija     | Predviđanje kontinuirane vrijednosti |
-
-Kod klasifikacionog problema cilj je dodijeliti uzorke odgovarajućim klasama, dok se kod regresije predviđaju numeričke vrijednosti. Ova razlika direktno utiče na izbor modela i metrika evaluacije.
 
 ---
 
