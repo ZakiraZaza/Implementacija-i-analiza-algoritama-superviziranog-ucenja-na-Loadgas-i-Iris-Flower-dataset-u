@@ -47,6 +47,7 @@ U Git Command Window-u ili terminalu potrebno je pokrenuti:
 
 ```bash
 git clone <URL_REPOZITORIJA>
+```
 
 # Rezultati i analiza
 
