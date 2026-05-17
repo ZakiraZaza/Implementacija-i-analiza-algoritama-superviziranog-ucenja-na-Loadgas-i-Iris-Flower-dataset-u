@@ -83,7 +83,15 @@ function results = iris_classification()
     ylabel('Sirina sepala');
     title('Iris Dataset - vizualizacija osobina');
     grid on;
-
+ 
+    %% Vizualizacija prve dvije osobina (duzina i sirina petala)
+    figure('Name','Vizualizacija Iris podataka');
+    gscatter(X(:,3), X(:,4), Y);
+    xlabel('Duzina petala');
+    ylabel('Sirina petala');
+    title('Iris Dataset - vizualizacija osobina');
+    grid on;
+    
     %% Pohrana rezultata u izlaznu strukturu
     results.KNN_Accuracy = accKNN;
     results.SVM_Accuracy = accSVM;
